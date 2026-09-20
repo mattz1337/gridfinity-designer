@@ -6,5 +6,8 @@
 *.svg text eol=lf
 *.json text eol=lf
 *.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
 *.FCStd binary
 *.stl binary

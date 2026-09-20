@@ -24,7 +24,7 @@
 <path d="M132 178V142Q146 124 160 142V178" fill="#e6ab51"/>
 <path d="M55 159L283 77" stroke="#e6ab51" stroke-width="24" stroke-linecap="round"/>
 <text x="22" y="222" font-size="18">Press rear; cap rises</text>
-<text x="22" y="246" font-size="14" fill="#557685">CAD checked. Physical prototype untested.</text>
+<text x="22" y="246" font-size="14" fill="#557685">Printed; operation demonstrated on video.</text>
 </g>
 </g>
 </svg>

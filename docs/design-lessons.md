@@ -1,6 +1,6 @@
 # What the design session changed
 
-The skill was exercised through several revisions of a fitted organizer for an adhesive pen. The user was satisfied with the workflow; that is not a claim that the print was physically tested.
+The skill was exercised through several revisions of a fitted organizer for an adhesive pen. The user's initial satisfaction concerned the workflow. Later photos and video supplied separate evidence of actual printing, fit and press-to-lift operation.
 
 | What happened | Reusable lesson now in the skill |
 |---|---|
@@ -17,6 +17,7 @@ The skill was exercised through several revisions of a fitted organizer for an a
 | Endpoint calculations looked feasible. | Verify intermediate poses, supports, lip and removal path; endpoints alone do not prove clearance. |
 | The model cleared sampled poses. | Say “sampled,” identify the surrogate and retain physical-test uncertainty. |
 | The user asked for a cheaper test print. | Give conditional slicer settings, account for minimum shell thickness and preserve full-scale mechanism geometry. |
+| Later photos and a video showed the real print working. | Update physical-evidence status without rewriting historical CAD reports or inferring unmeasured durability. |
 | Files included machine-specific paths and successive review states. | Publish portable scripts, current reports and neutral metadata with a curated narrative. |
 
 ## Behavior checks for future edits

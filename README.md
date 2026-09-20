@@ -4,9 +4,9 @@
 
 A Codex skill for guided measurement, practical pocket design, dimensioned review and CAD generation through a connected FreeCAD MCP server.
 
-![Press-to-lift Gridfinity organizer](examples/pattex-pen/images/press-lift.png)
+[![Press the rear, lift out the pen, and replace it](examples/pattex-pen/images/press-to-lift-demo.gif)](examples/pattex-pen/video/press-to-lift-demo.mp4)
 
-*Example: a 1 × 3 organizer with continuous sidewalls, a stacking lip and a rounded support that lets the pen tilt when one end is pressed. The model has been checked in CAD; physical fit and rocking action have not yet been tested.*
+*From CAD to a real print: press the rear of the pen to raise the capped end for removal. This user-supplied demonstration shows the 1 × 3 organizer in use. [Watch or download the video](examples/pattex-pen/video/press-to-lift-demo.mp4).*
 
 [Install](#install) · [FreeCAD MCP setup](docs/freecad-mcp-setup.md) · [Example walkthrough](examples/pattex-pen/README.md) · [Skill instructions](skills/gridfinity-designer/SKILL.md) · [Design lessons](docs/design-lessons.md)
 
@@ -63,6 +63,16 @@ The first design gets a dimensioned review. After approval, the skill generates 
 
 ## Worked example: from fitted pocket to press-to-lift
 
+### The printed result
+
+| Freshly printed | Pen seated in the pocket | Installed in the drawer |
+|---|---|---|
+| ![Printed organizer showing the pivot and cap rest](examples/pattex-pen/images/printed-empty.jpg) | ![The actual pen seated in the organizer](examples/pattex-pen/images/printed-with-pen.jpg) | ![The organizer in a stationery drawer](examples/pattex-pen/images/printed-in-drawer.jpg) |
+
+The photographs show the finished organizer and pen fit; the video above demonstrates pressing, removal and replacement. These observations concern this specimen, not dimensional metrology or a durability test.
+
+### The CAD iterations
+
 | First version | Closed sides | Press-to-lift |
 |---|---|---|
 | ![Side openings](examples/pattex-pen/images/side-openings.png) | ![Closed sides](examples/pattex-pen/images/closed-sides.png) | ![Rounded support](examples/pattex-pen/images/press-lift.png) |
@@ -92,7 +102,7 @@ The installable skill is small and self-contained; the example and its CAD files
 
 ## Validation and limitations
 
-The example was generated using FreeCAD 1.1.3 through MCP. CAD validity, interface checks and mesh closure do not establish physical fit, print quality, support stability or ease of use.
+The example was generated using FreeCAD 1.1.3 through MCP. CAD validity, interface checks and mesh closure are recorded separately from the later user-supplied photos and working demonstration. Exact clearances, removal force and long-term durability have not been measured.
 
 The model has script-generated profiles and dependent boolean features, with editable support primitives. It is not a fully constrained parametric model. The example generator is a reproducibility aid, not a general Gridfinity CAD library.
 
@@ -112,4 +122,4 @@ Report the actual use case, dimensions, access problem and which checks or print
 
 [MIT](LICENSE). Gridfinity was created by Zack Freedman. Interface dimensions were checked against [Gridfinity Rebuilt](https://github.com/kennetek/gridfinity-rebuilt-openscad/blob/main/src/core/standard.scad); the case study records the exact verification scope.
 
-Pattex is mentioned to identify the example item. This project is independent of its manufacturer, Bambu Lab, FreeCAD and OpenAI. The public example uses CAD views and dimensioned graphics; original personal photographs and the raw conversation are not included.
+Pattex is mentioned to identify the example item. This project is independent of its manufacturer, Bambu Lab, FreeCAD and OpenAI. The example includes CAD views, dimensioned graphics and user-supplied photos/video of the printed result, published with permission. Photo location metadata was removed without changing compressed image data. Earlier measurement photographs and the raw conversation remain omitted.

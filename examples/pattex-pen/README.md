@@ -2,7 +2,25 @@
 
 This example follows a design session for one Pattex adhesive pen stored horizontally, label up. The request was for the smallest practical Gridfinity box, matching existing 6U bins with stacking lips, printed in PLA on a Bambu Lab P2S.
 
-**Status:** CAD-generated prototype with geometric checks. No physical print, fit or rocking test has been reported.
+**Status:** Printed and demonstrated. User-supplied photographs show the finished organizer, the actual pen seated in it and its drawer placement. The video demonstrates press-to-lift removal and replacement; quantitative tolerances and durability remain unmeasured.
+
+## The real print
+
+| Fresh off the printer | Fitted with the pen | In the drawer |
+|---|---|---|
+| ![Empty organizer with its rounded support and cap rest](images/printed-empty.jpg) | ![Pattex pen resting in the fitted pocket](images/printed-with-pen.jpg) | ![Organizer integrated into a stationery drawer](images/printed-in-drawer.jpg) |
+
+The empty print reveals the transverse rounded support and the small cap rest. The loaded photographs show the pen seated inside the continuous walls and rim.
+
+### Press, lift, replace
+
+[![Physical press-to-lift demonstration](images/press-to-lift-demo.gif)](video/press-to-lift-demo.mp4)
+
+Press the broad rear, grasp the raised cap end, lift the pen out, then return it to the pocket. The supplied clip shows this sequence on the printed specimen.
+
+[Watch or download the 7.8-second MP4](video/press-to-lift-demo.mp4) · 1280 × 720 · approximately 2 MB. The inline GIF is a lower-resolution, silent preview of the same sequence.
+
+This is physical evidence of fit and operation for the shown pen and print. Exact clearance, extraction force, repeat-cycle durability and fit for other pens were not measured. The actual print settings were not supplied; the suggested settings below remain a starting proposal.
 
 ## How the design changed
 
@@ -14,7 +32,7 @@ This example follows a design session for one Pattex adhesive pen stored horizon
 
 ![Three design steps](images/design-evolution.svg)
 
-These are user-directed design choices, not three validated physical prototypes. The earlier models are shown as CAD views. The downloadable model is R5.
+These are user-directed design choices. R3 and R4 are shown as CAD iterations; the physical demonstration is of the final press-to-lift design. The downloadable model is R5.
 
 ## Measurements: what was known, and what was assumed
 
@@ -76,7 +94,7 @@ The checked extraction path first shifts the tilted item **1.5 mm toward the cap
 
 [Original detailed evidence](verification/original-r5.json) · [Verification notes](verification/README.md)
 
-Finite samples are not a continuous swept-volume proof. Zero volume overlap allows contact; it does not prove positive manufacturing clearance. Straight neutral insertion has only about **0.15 mm longitudinal clearance at the cap-side lip throat**, so print tolerance matters. The actual baseplate, underside contact, mass balance and physical removal force remain untested.
+Finite samples are not a continuous swept-volume proof. Zero volume overlap allows contact; it does not prove positive manufacturing clearance. Straight neutral insertion has only about **0.15 mm longitudinal clearance at the cap-side lip throat in the assumed CAD geometry**, so print tolerance matters. The later photos/video demonstrate actual fit and removal for one specimen; baseplate mating tolerance, contact forces, mass balance and removal force were not quantified.
 
 ## Download
 
@@ -124,12 +142,12 @@ For this low-load PLA fit test, with an **assumed 0.4 mm nozzle**, the conversat
 | Supports | Off for this feet-down design |
 | Brim | None if adhesion is reliable |
 
-This is an untested suggestion, not a supplied printer profile. Check the sliced floors/supports and compare estimated grams. Minimum shell thickness can override the layer-count setting; adjust both. Higher layer height mainly saves time. Do not scale the part down or use vase mode to test full-size fit and rocking.
+These proposed settings were not confirmed as the settings used for the photographed print; they are not a supplied printer profile. Check the sliced floors/supports and compare estimated grams. Minimum shell thickness can override the layer-count setting; adjust both. Higher layer height mainly saves time. Do not scale the part down or use vase mode to test full-size fit and rocking.
 
 ## Sources and provenance
 
 - [Gridfinity Rebuilt interface constants](https://github.com/kennetek/gridfinity-rebuilt-openscad/blob/main/src/core/standard.scad), inspected on 2026-09-20. The original session inspected `main` without recording a commit hash; it is a moving reference. The exact dimensions used are preserved in [design.json](design.json).
 - [Gridfinity unofficial specification](https://github.com/gridfinity-unofficial/specification), used for general grid context.
-- [Bambu shell-setting documentation](https://csm.bblcdn.com/hub/4668d0ca43994ff3bff4b37f1a65c2e7.pdf), supporting the shell-thickness interaction; the proposed settings were not physically tested.
+- [Bambu shell-setting documentation](https://csm.bblcdn.com/hub/4668d0ca43994ff3bff4b37f1a65c2e7.pdf), supporting the shell-thickness interaction; the actual settings used for the photographed print were not supplied.
 
-Published assets are generated CAD views, dimensioned drawings, model files and a curated account of the decisions. The original room photographs and raw chat are omitted. STEP metadata was neutralized and the native document's license metadata aligned with the repository license; the model geometry was preserved and rechecked.
+Published assets include CAD views, dimensioned drawings, model files and later photos/video of the real print, explicitly supplied by the user for publication. Earlier measurement/room photographs and raw chat remain omitted. Photo location metadata was removed while retaining orientation and original compressed image data. The video was transcoded to H.264/AAC for a smaller MP4, with a silent GIF preview. STEP metadata was neutralized and the native document's license metadata aligned with the repository license; the model geometry was preserved and rechecked.
