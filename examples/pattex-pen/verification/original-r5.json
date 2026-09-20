@@ -1,0 +1,724 @@
+{
+  "shape_valid": true,
+  "solid_count": 1,
+  "bounds_mm": [
+    41.5,
+    125.5,
+    46.4
+  ],
+  "invalid_features": [],
+  "floor_interfoot_section": [
+    [
+      [
+        20.75,
+        41.75,
+        4.750000000000001
+      ],
+      [
+        20.75,
+        41.75,
+        8.0
+      ]
+    ]
+  ],
+  "end_wall_section_z30": [
+    [
+      [
+        20.75,
+        0.0,
+        30.0
+      ],
+      [
+        20.75,
+        1.5,
+        30.0
+      ]
+    ],
+    [
+      [
+        20.75,
+        123.25,
+        30.0
+      ],
+      [
+        20.75,
+        125.5,
+        30.0
+      ]
+    ]
+  ],
+  "side_wall_section_z30": [
+    [
+      [
+        -1.1102230246251565e-16,
+        65.0,
+        30.0
+      ],
+      [
+        5.25,
+        65.0,
+        30.0
+      ]
+    ],
+    [
+      [
+        36.25,
+        65.0,
+        30.0
+      ],
+      [
+        41.5,
+        65.0,
+        30.0
+      ]
+    ]
+  ],
+  "pivot_vertical_section": [
+    [
+      [
+        20.75,
+        46.0,
+        0.0
+      ],
+      [
+        20.75,
+        46.0,
+        19.999999999999968
+      ]
+    ]
+  ],
+  "cap_rest_vertical_section": [
+    [
+      [
+        20.75,
+        115.0,
+        0.0
+      ],
+      [
+        20.75,
+        115.0,
+        23.0
+      ]
+    ]
+  ],
+  "stacking_collision_mm3": 0.0,
+  "motion_samples": [
+    {
+      "degrees": 0.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 0.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 1.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 1.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 2.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 2.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 3.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 3.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 4.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 4.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 5.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 5.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 6.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 6.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 7.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 7.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 8.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 8.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 9.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 9.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 10.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 10.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 11.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 11.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 12.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 12.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 13.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 13.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 14.0,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 14.5,
+      "collision_mm3": 0.0
+    },
+    {
+      "degrees": 15.0,
+      "collision_mm3": 0.0
+    }
+  ],
+  "extraction_samples": [
+    {
+      "stage": "release",
+      "step": 0,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 1,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 2,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 3,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 4,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 5,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 6,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 7,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 8,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 9,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "release",
+      "step": 10,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 0,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 1,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 2,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 3,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 4,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 5,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 6,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 7,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 8,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 9,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 10,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 11,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 12,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 13,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 14,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 15,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 16,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 17,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 18,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 19,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 20,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 21,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 22,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 23,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 24,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 25,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 26,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 27,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 28,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 29,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 30,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 31,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 32,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 33,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 34,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 35,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 36,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 37,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 38,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 39,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 40,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 41,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 42,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 43,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 44,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 45,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 46,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 47,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 48,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 49,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 50,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 51,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 52,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 53,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 54,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 55,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 56,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 57,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 58,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 59,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 60,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 61,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 62,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 63,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 64,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 65,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 66,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 67,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 68,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 69,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 70,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 71,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 72,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 73,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 74,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 75,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 76,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 77,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 78,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 79,
+      "collision_mm3": 0.0
+    },
+    {
+      "stage": "lift",
+      "step": 80,
+      "collision_mm3": 0.0
+    }
+  ],
+  "limitations": [
+    "Assumed item shape; no physical fit or stability test",
+    "Finite pose sampling, not a continuous swept-volume proof",
+    "Rests on fixed rounded support; actual sliding/rolling depends on friction and casing"
+  ],
+  "step": {
+    "valid": true,
+    "solids": 1,
+    "bounds_mm": [
+      41.5,
+      125.5,
+      46.40000000000085
+    ],
+    "volume_difference_mm3": 1.0331859812140465e-09
+  },
+  "stl": {
+    "closed": true,
+    "components": 1,
+    "bounds_mm": [
+      41.5,
+      125.5,
+      46.400001525878906
+    ]
+  },
+  "files": {
+    "FCStd": 86828,
+    "step": 147863,
+    "stl": 244484,
+    "png": 24427
+  },
+  "artifact_size_scope": "Original session exports, before publication metadata normalization"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gridfinity Designer"
+  short_description: "Design fitted Gridfinity organizers with FreeCAD"
+  default_prompt: "Use $gridfinity-designer to help me organize these items."

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900">
+<rect width="1000" height="900" fill="#f8fafc"/>
+<g font-family="Arial" fill="#183447">
+<text x="40" y="42" font-size="26" font-weight="bold">Press-to-lift · approved R5</text>
+<text x="40" y="73" font-size="17">1 × 3 / 6U + stacking lip · assumed item dimensions · all units mm</text>
+<text x="40" y="110" font-size="19" font-weight="bold">Top view: continuous outer walls and lip</text>
+<g transform="translate(80 145) scale(6)">
+<rect x="0" y="0" width="125.5" height="41.5" rx="3.75" fill="#cbdce5" stroke="#183447" stroke-width=".3"/>
+<path d="M1.5 5.25H101.5L105.5 10.25H123.25V31.25H105.5L101.5 36.25H1.5Z" fill="#eaf4f5" stroke="#183447" stroke-width=".3"/>
+<rect x="44" y="5.25" width="4" height="31" fill="#eeb873"/>
+<rect x="111" y="14.25" width="8" height="13" fill="#70b8ae"/>
+<path d="M2.6 3.75V37.75M122.9 3.75V37.75" stroke="#687e91" stroke-dasharray="1 1" stroke-width=".25"/>
+</g>
+<text x="80" y="422" font-size="16">Y → 125.5 (along pen); X ↓ 41.5 · origin at upper-left outer bounds</text>
+<text x="340" y="136" font-size="16">Pivot Y46</text>
+<text x="715" y="136" font-size="16">Cap rest</text>
+<text x="40" y="458" font-size="19" font-weight="bold">Side section: press grey rear → capped end rises</text>
+<path d="M80 458V650H833V458" fill="none" stroke="#183447" stroke-width="3"/>
+<path d="M80 480H833" stroke="#8399a8" stroke-dasharray="7 5"/>
+<rect x="344" y="600" width="24" height="50" fill="#eeb873"/>
+<ellipse cx="356" cy="600" rx="12" ry="10" fill="#eeb873" stroke="#9d641d"/>
+<rect x="746" y="575" width="48" height="75" fill="#70b8ae"/>
+<polygon points="108.5,590 660.5,590 684.5,575 816.5,575 816.5,515 684.5,515 660.5,500 378.5,500 318.5,510 108.5,520" fill="#75bcb3" fill-opacity=".45" stroke="#237c73" stroke-width="2"/>
+<polygon points="113.82752945222532,643.7221697895043 647.018585563791,524.6654090423447 665.5420625828833,505.0001407459582 793.0442716530404,476.5300457846809 774.4093004056588,418.57449620733684 646.9070913355018,447.04459116861415 619.0661286927188,437.73208467632855 346.67504567920156,498.5545602754209 291.8253246430877,521.1547707934376 92.08672966361358,576.1073619492695" fill="#eeb873" fill-opacity=".35" stroke="#a8691e" stroke-width="2"/>
+<text x="850" y="463" font-size="15">Z46.4 lip</text><text x="850" y="484" font-size="15">Z42 deck</text>
+<text x="850" y="654" font-size="15">Z8 floor</text>
+<text x="87" y="690" font-size="17">Rear ↓ 10.7</text><text x="320" y="718" font-size="17">R2 support · centre Y46 / Z18</text>
+<text x="685" y="690" font-size="17">Cap ↑ 19.3</text>
+<text x="40" y="758" font-size="18">Resting item: 118 long × 29 wide; rear 14 thick, body up to 18, cap 12.</text>
+<text x="40" y="790" font-size="18">Press angle: 15° · cap top Z54.3, about 7.9 above lip · minimum floor target 3.25.</text>
+<text x="40" y="826" font-size="17">Green = resting; amber = pressed. Contact stability and actual fit require a print test.</text>
+<text x="40" y="858" font-size="17">31 tilt poses and 92 extraction poses checked; no interference with the assumed item.</text>
+</g></svg>
