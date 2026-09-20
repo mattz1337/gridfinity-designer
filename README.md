@@ -8,7 +8,7 @@ A Codex skill for guided measurement, practical pocket design, dimensioned revie
 
 *Example: a 1 × 3 organizer with continuous sidewalls, a stacking lip and a rounded support that lets the pen tilt when one end is pressed. The model has been checked in CAD; physical fit and rocking action have not yet been tested.*
 
-[Install](#install) · [Example walkthrough](examples/pattex-pen/README.md) · [Skill instructions](skills/gridfinity-designer/SKILL.md) · [Design lessons](docs/design-lessons.md)
+[Install](#install) · [FreeCAD MCP setup](docs/freecad-mcp-setup.md) · [Example walkthrough](examples/pattex-pen/README.md) · [Skill instructions](skills/gridfinity-designer/SKILL.md) · [Design lessons](docs/design-lessons.md)
 
 ## What it does
 
@@ -41,6 +41,12 @@ Or copy the complete `skills/gridfinity-designer` directory into a skill locatio
 MCP implementations differ: the skill discovers available tools and checks connectivity instead of assuming a specific server URL or tool schema. Set up your chosen server using its own documentation. A remote server also needs a reachable output location.
 
 Without FreeCAD MCP, the skill can still prepare the measurements, specification and drawings; it reports that no CAD was generated.
+
+### Set up FreeCAD MCP
+
+See the [FreeCAD MCP setup guide](docs/freecad-mcp-setup.md) for addon installation, Codex CLI/configuration examples, a connection check and troubleshooting.
+
+The guide uses [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) as a concrete option. It has two components: a FreeCAD addon and an external MCP process launched by your client. Other implementations can work, but their setup and tools may differ. [Upstream quick start](https://github.com/neka-nat/freecad-mcp#quick-start).
 
 ## Start a design
 
@@ -78,6 +84,7 @@ Read the [full case study](examples/pattex-pen/README.md) for dimensions, assump
 skills/gridfinity-designer/   Installable skill, references and templates
 examples/pattex-pen/          Case study, models, images, generator and evidence
 docs/design-lessons.md       How the workflow improved through actual use
+docs/freecad-mcp-setup.md     FreeCAD addon and Codex connection setup
 scripts/check_repo.py        Portable package/link/metadata checks
 ```
 
